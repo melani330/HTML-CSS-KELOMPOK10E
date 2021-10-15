@@ -1,7 +1,7 @@
 # HTML-CSS-KELOMPOK10E
 
 ANGGOTA KELOMPOK 10E
-1. Megawati Shintia Maria Gultom
+1. Megawati Shinta Maria Gultom
 2. Melani Siti Hasanah
 3. Meilisa Puspita Handayani
 4. Maya Khairani Pane
@@ -11,7 +11,7 @@ JUDUL PROJECT:
 E Ten's Bites
 
 PEMBAGIAN PENGERJAAN:
-1. Megawati Shintia Maria Gultom : Main 1 di index.html, beserta stylesheet.css dan responsive.css
+1. Megawati Shinta Maria Gultom : Main 1 di index.html, beserta stylesheet.css dan responsive.css
 
 ![image](https://user-images.githubusercontent.com/72775473/137436538-cc7396fd-d35f-4924-96ab-54607f7de5c5.png)
 
