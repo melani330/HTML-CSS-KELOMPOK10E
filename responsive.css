@@ -1,84 +1,11 @@
-
-/* Untuk Tablet */
 @media all and (max-width: 1000px) {
-
-    /* HEADER */
-
-
-    /* MAIN1 */
-    .top-wrapper h1 {
-      font-size: 32px;
+    .header-right {
+        display: none;
     }
-
-    /* MAIN2 */
-
-  
-   /* MAIN3 */
-    .btn{
-        font-size: 14px;
-    }
-    .judul3 h2{
-        font-size: 29px;
-    }
-    .produk{
-      width: 50%;
-    }
-    .produk img{
-      width: 170px;
-      height: 220px;
-    }
-    .lainnya{
-     margin: 10px 0;
-   }
 }
-  /* FOOTER */
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
 
-    /* HEADER */
-
-
-    /* MAIN1 */
-    .btn-wraper {
-      width: 100%;
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
     }
-    
-    .btn-Pesan{
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-
-
-    /* MAIN2 */
-    
-
-   /*  MAIN3 */
-    .btn{
-        font-size: 14px;
-    }
-    .produk{
-      width: 50%;
-    }
-    .produk img{
-      width: 140px;
-      height: 180px;
-    }
-    .lainnya{
-      margin: 10px 0;
-    }
-  }
-  /* FOOTER */
+}

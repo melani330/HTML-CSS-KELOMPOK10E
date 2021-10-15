@@ -1,234 +1,99 @@
-
- 
-  /* HEADER */
- 
-
-
-  /* BODY */
-  body{
+* {
+    box-sizing: border-box;
+}
+body {
     margin: 0;
-    background-color: #e6e6e8;
-    font-family: "Lucida Grande";
-  }
-
-  /* MAIN1 */
-  .clear {
-    clear: left;
-  }
-  
-  .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://i.ytimg.com/vi/UWZ_jBB15Gk/maxresdefault.jpg);
-    background-size: cover;
-    color: rgb(12, 47, 247);
-    text-align: center;
-    opacity: 0.9;
-  }
-  
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
-  .main1 h1 {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    font-family: "Cursive";
-  }
-  .main1 p {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    padding-top: 20px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
-  }
-  
-  .btn-wraper {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .btn-wraper p {
-    margin: 10px 0;
-  }
-  
-  @keyframes example {
-    from {background-color: red;}
-    to {background-color: blueviolet;}
-  }
-  
-  .btn-Pesan {
-    border: 2px solid rgb(17, 16, 16);
-    border-radius: 5px;
-    color:rgb(249, 247, 252);
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-  }
-  
-  .btn-wraper {
-    padding: 75px 150px;
-    color: rgb(247, 6, 6);
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
-    margin-right: 5px;
-  }
-  
-  
-
-  /* MAIN2 */
- 
-
- 
- 
-   /* MAIN3 */
-   @font-face {
+}
+a {
+    text-decoration: none;
+}
+@font-face {
     font-family: muli;
     src: url('Muli.ttf');
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: gelato;
     src: url('GelatoScript.ttf');
-  }
+}
 
-  .judul3{
-    background-color:#E2CECB;
-    height: 280px;
-    margin-top: 25px 0 25px 25px;
-    float:center;
-    
-  }
-  .judul3 h2{
-    font-family: gelato;
-    color:#7A4F25;
-    font-size:35px;
-    text-align: center;
-    padding: 45px 0;
-  }
-  .row::after{
-    content:"";
-    display: table;
-    clear: both;
-    margin-top: 25px;
-  }
+.i {
+    float: right;
+    margin-right: 50px;
+    width: 20px;
+}
 
-  .row{
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-  .kolom h3{
-    text-align: center;
-    font-family: muli;
-    text-underline-position: below;
-  }
-
-  .produk{
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #e2cecb;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.header-left {
     float: left;
-    width:25%;
-    height: 400px;
+    font-size: 50px;
+    color: #7a4f25;
+    font-family: gelato;
+    line height: 100px;
+}
+
+.header-left a {
+    padding: 0 25px;
+    color: #7a4f25;
+    float: left;
+}
+.header-right {
+    float: right;
+    margin-right: 50px;
+    font-family: muli;
+}
+.header-right a {
+    line-height: 65px;
+    padding: 0 20px;
+    color: #7a4f25;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+    background-color: rgba(219, 159, 159, 0.37);
+}
+
+.btn {
+    width: 20px;
+    margin-top: 20px;
+    color: #7a4f25;
+}
+.btn:hover {
+    background-color: rgba(219, 159, 159, 0.37);
+}
+
+.input {
+    width: 300px;
+    padding: 55px;
+    font-size: 15px;
+    border: 8px solid #e2cecb;
+}
+.contact-search {
+    padding: 0 20px;
+    border-radius: 3;
+    color: #7a4f25;
+}
+
+.contact-submit {
+    background-color: #e2cecb;
+    color: #7a4f25;
+    font-family: muli;
+    font-weight: 300;
   }
 
-  .kuea{
-    color:#6C3828;
-  }
-  .kueb{
-    color:#6C3828;
-  }
-  .kuec{
-    color:#6C3828;
-  }
-  .kued{
-    color:#6C3828;
-  }
-  .kuee{
-    color:#6C3828;
-  }
-
-  .produk p{
-    text-align: center;
-    font-family: muli;
-    text-underline-position: below;
-  }
-  .produk img{
-    width: 210px;
-    height: 280px;
-    display:block; 
-    margin:auto;
-  }
-  /* BUTTON */
-  
-  
-  .kedua{
-    background-color: #B34047;
-    font-family: muli;
-    text-align: center;
-  }
- 
-  .btn-wrapper {
+.btn-header {
     text-align: left;
     margin: 20px 0;
-  }
-  .btn-wrapper a{
-    color:#F5F6F8;
-  }
-  .btn:hover {
-    opacity: 1;
-  }
+}
 
-  .btn{
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 2px;
-    
-  }
-  .pesan{
-    background-color: #B34047;
-    font-family: muli;
-  }
-  a{
-    text-decoration: none;
-  }
-  .btn-wrap {
-    text-align: center;
-    margin: 20px 0;
-  }
-  .btn-wrap a{
-    color:#F5F6F8;
-  }
-  .lainnya{
-    background-color: #B34047;
-    font-family: muli;
-    margin: 25px 0;
-    text-align: center;
-  }
-  /* FOOTER */
- 
- 
- 
+.fa {
+    margin-right: 5px;
+}
