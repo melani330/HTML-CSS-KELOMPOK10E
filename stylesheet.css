@@ -1,22 +1,17 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  html, body,
-  ul, ol, li,
-  h1, h2, h3, h4, h5, h6, p, div {
+
+ 
+  /* HEADER */
+ 
+
+
+  /* BODY */
+  body{
     margin: 0;
-    padding: 0;
-  }
-  
-  body {
+    background-color: #e6e6e8;
     font-family: "Lucida Grande";
   }
-  
-  a {
-    text-decoration: none;
-  }
-  
+
+  /* MAIN1 */
   .clear {
     clear: left;
   }
@@ -42,32 +37,28 @@
     letter-spacing: 5px;
     margin-bottom: 10px;
   }
-  
-  h1,p {
+  .main1 h1 {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  }
-  
-  h1{
     font-family: "Cursive";
-   
   }
-
-  p{
+  .main1 p {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     padding-top: 20px;
   }
-
+  
   .top-wrapper p {
     opacity: 0.7;
     margin-bottom: 3px;
   }
   
-  .btn-wrapper {
+  .btn-wraper {
     text-align: center;
     margin: 20px 0;
   }
   
-  .btn-wrapper p {
+  .btn-wraper p {
     margin: 10px 0;
   }
   
@@ -75,7 +66,7 @@
     from {background-color: red;}
     to {background-color: blueviolet;}
   }
-
+  
   .btn-Pesan {
     border: 2px solid rgb(17, 16, 16);
     border-radius: 5px;
@@ -87,7 +78,7 @@
     animation-duration: 4s;
   }
   
-  .btn-wrapper {
+  .btn-wraper {
     padding: 75px 150px;
     color: rgb(247, 6, 6);
     display: inline-block;
@@ -103,3 +94,141 @@
   .fa {
     margin-right: 5px;
   }
+  
+  
+
+  /* MAIN2 */
+ 
+
+ 
+ 
+   /* MAIN3 */
+   @font-face {
+    font-family: muli;
+    src: url('Muli.ttf');
+  }
+  @font-face {
+    font-family: gelato;
+    src: url('GelatoScript.ttf');
+  }
+
+  .judul3{
+    background-color:#E2CECB;
+    height: 280px;
+    margin-top: 25px 0 25px 25px;
+    float:center;
+    
+  }
+  .judul3 h2{
+    font-family: gelato;
+    color:#7A4F25;
+    font-size:35px;
+    text-align: center;
+    padding: 45px 0;
+  }
+  .row::after{
+    content:"";
+    display: table;
+    clear: both;
+    margin-top: 25px;
+  }
+
+  .row{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .kolom h3{
+    text-align: center;
+    font-family: muli;
+    text-underline-position: below;
+  }
+
+  .produk{
+    float: left;
+    width:25%;
+    height: 400px;
+  }
+
+  .kuea{
+    color:#6C3828;
+  }
+  .kueb{
+    color:#6C3828;
+  }
+  .kuec{
+    color:#6C3828;
+  }
+  .kued{
+    color:#6C3828;
+  }
+  .kuee{
+    color:#6C3828;
+  }
+
+  .produk p{
+    text-align: center;
+    font-family: muli;
+    text-underline-position: below;
+  }
+  .produk img{
+    width: 210px;
+    height: 280px;
+    display:block; 
+    margin:auto;
+  }
+  /* BUTTON */
+  
+  
+  .kedua{
+    background-color: #B34047;
+    font-family: muli;
+    text-align: center;
+  }
+ 
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+  .btn-wrapper a{
+    color:#F5F6F8;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px;
+    
+  }
+  .pesan{
+    background-color: #B34047;
+    font-family: muli;
+  }
+  a{
+    text-decoration: none;
+  }
+  .btn-wrap {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .btn-wrap a{
+    color:#F5F6F8;
+  }
+  .lainnya{
+    background-color: #B34047;
+    font-family: muli;
+    margin: 25px 0;
+    text-align: center;
+  }
+  /* FOOTER */
+ 
+ 
+ 
