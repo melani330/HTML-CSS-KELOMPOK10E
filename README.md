@@ -21,7 +21,8 @@ PEMBAGIAN PENGERJAAN:
 ![image](https://user-images.githubusercontent.com/72775473/137418279-4b5a787c-a238-4b4c-8be1-8dfa403f47eb.png)
 
 4. Meilisa Puspita Handayani : Header di index.html, beserta stylesheet.css dan responsive.css
-![Screenshot (1057)](https://user-images.githubusercontent.com/88617915/137423982-ab13b2bc-3b1b-4ab4-96c1-188953fae635.png)
+![photo1634267220 (1)](https://user-images.githubusercontent.com/88617915/137426197-cf87e0d3-1716-4dbf-b494-447016222d11.jpeg)
+
 
 6.
 7.
