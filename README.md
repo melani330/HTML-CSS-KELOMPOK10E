@@ -24,9 +24,10 @@ PEMBAGIAN PENGERJAAN:
 
 ![image](https://user-images.githubusercontent.com/72775473/137436490-909962c0-fbbf-4419-941d-506fff71f3d5.png)
 
-4.Maya Khairani Pane : Header di index.html, beserta stylesheet
+4.Maya Khairani Pane : Footer di index.html, beserta stylesheet
 
+![image](https://user-images.githubusercontent.com/72775473/137483330-114c5cf8-5152-4590-9ce9-1fbcb21e2e4a.png)
 
 5.Maulin Karmila : Main 2 di index.html, beserta stylesheet.css dan responsive.css
 
-![images](https://user-images.githubusercontent.com/77570440/137453419-aea55df3-e972-4d1e-8392-6a32aefef019.png)
+![image](https://user-images.githubusercontent.com/72775473/137483243-88f932b8-6021-49d5-9238-4726fe05e6b8.png)
