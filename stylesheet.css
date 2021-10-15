@@ -147,7 +147,76 @@
 
  /* MAIN2 */
  
+ @font-face {
+  font-family: muli;
+  src: url('Muli.ttf');
+}
+@font-face {
+  font-family: gelato;
+  src: url('GelatoScript.ttf');
+}
 
+.judul2{
+  background-color:#E2CECB;
+  height: 280px;
+  margin-top: 25px 0 25px 25px;
+  float:center;
+  
+}
+.judul2 h2{
+  font-family: gelato;
+  color:#7A4F25;
+  font-size:35px;
+  text-align: center;
+  padding: 45px 0;
+}
+.lesson::after{
+  content:"";
+  display: table;
+  clear: both;
+  margin-top: 25px;
+}
+
+.lesson{
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.kolom h2{
+  text-align: center;
+  font-family: muli;
+  text-underline-position: below;
+}
+
+.keuntungan{
+  float: left;
+  width:25%;
+  height: 200px;
+}
+
+.belanja1{
+  color:#6C3828;
+}
+.belanja2{
+  color:#6C3828;
+}
+.belanja3{
+  color:#6C3828;
+}
+.belanja4{
+  color:#6C3828;
+}
+.keuntungan p{
+  text-align: center;
+  font-family: muli;
+  text-underline-position: below;
+}
+.keuntungan img{
+  width: 30px;
+  height: 30px;
+  display:block; 
+  margin:auto;
+}
  
  
   /* MAIN3 */
