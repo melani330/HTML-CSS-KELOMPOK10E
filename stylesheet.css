@@ -1,10 +1,18 @@
 
 
-  /* HEADER */
+    /* BODY */
+   body{
+     margin: 0;
+     background-color: #e6e6e8;
+   }
+   .clear {
+     clear: left;
+   }
   * {
     box-sizing: border-box;
   }
 
+  /* HEADER */
   header {
     height: 65px;
     width: 100%;
@@ -62,18 +70,8 @@
     margin: 20px 0;
 }
 
-
-  /* BODY */
-  body{
-    margin: 0;
-    background-color: #e6e6e8;
-  }
-  .clear {
-    clear: left;
-  }
-
   /* MAIN1 */
-  .main1{
+  .main1-wrapper{
     padding: 130px 0 100px 0;
     background-image: url('img/bg.jpg');
     background-size: cover;
@@ -82,7 +80,7 @@
   
   }
   .container {
-    max-width: 1170px;
+    max-width: 1190px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -95,7 +93,7 @@
     font-family: gelato;
     src: url('GelatoScript.ttf');
   }
-  .main1 h1 {
+  .main1-wrapper h1 {
     opacity: 0.8;
     font-size: 43px;
     letter-spacing: 2px;
@@ -110,7 +108,7 @@
     color:#B34047;
   }
   
-  .main1 p {
+  .main1-wrapper p {
     opacity: 0.8;
     margin-bottom: 3px;
     color:#6C3828;
@@ -146,23 +144,14 @@
   }
 
  /* MAIN2 */
- 
- @font-face {
-  font-family: muli;
-  src: url('Muli.ttf');
-}
-@font-face {
-  font-family: gelato;
-  src: url('GelatoScript.ttf');
-}
-
-.judul2{
+ .judul2{
   background-color:#E2CECB;
-  height: 280px;
-  margin-top: 25px 0 25px 25px;
+  height: 120px;
+  /* margin:0 25px; */
   float:center;
   
 }
+
 .judul2 h2{
   font-family: gelato;
   color:#7A4F25;
@@ -170,54 +159,53 @@
   text-align: center;
   padding: 45px 0;
 }
-.lesson::after{
+
+.kolom{
+  float: left;
+  width:25%;
+  height: 250px;
+}
+
+.row::after{
   content:"";
   display: table;
   clear: both;
   margin-top: 25px;
 }
 
-.lesson{
+.row{
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
 }
-.kolom h2{
-  text-align: center;
+.satu{
+  background-color: #E2CECB;
+  color:#6C3828;
+}
+.dua{
+  background-color: #ce8f8f;
+  color:#F5F6F8;
+}
+.tiga{
+  background-color: #E2CECB;
+  color:#6C3828;
+}
+.empat{
+  background-color: #ce8f8f;
+  color:#F5F6F8;
+}
+.kolom p{
   font-family: muli;
-  text-underline-position: below;
-}
-
-.keuntungan{
-  float: left;
-  width:25%;
-  height: 200px;
-}
-
-.belanja1{
-  color:#6C3828;
-}
-.belanja2{
-  color:#6C3828;
-}
-.belanja3{
-  color:#6C3828;
-}
-.belanja4{
-  color:#6C3828;
-}
-.keuntungan p{
+  font-size: 50;
   text-align: center;
-  font-family: muli;
-  text-underline-position: below;
 }
-.keuntungan img{
+.kolom img{
   width: 30px;
   height: 30px;
   display:block; 
   margin:auto;
 }
- 
+
  
   /* MAIN3 */
    @font-face {
@@ -232,7 +220,7 @@
   .judul3{
     background-color:#E2CECB;
     height: 280px;
-    margin-top: 25px 0 25px 25px;
+    margin:0 25px;
     float:center;
     
   }
@@ -257,6 +245,7 @@
     margin-left: 25px;
     margin-right: 25px;
   }
+ 
   .kolom h3{
     text-align: center;
     font-family: muli;
@@ -297,8 +286,7 @@
     margin:auto;
   }
   /* BUTTON */
-  
-  
+
   .kedua{
     background-color: #B34047;
     font-family: muli;
@@ -347,22 +335,20 @@
     margin: 25px 0;
     text-align: center;
   }
+
   /* FOOTER */
-    }
-.container{
-  max-width: 1500px; 
-  background-color: #e2cecb;
-  margin: auto;
-}
-.row{
+
+.kol{
   display: flex;
   flex-wrap: wrap;
+  background-color: #e2cecb;
+
 }
-ul{
+
+ ul{
   list-style: none;
 }
 .footer{
-  background-color: #e2cecb;
   padding: 100px ;
 }
 .footer-col{
@@ -391,7 +377,7 @@ ul{
   margin-bottom: 10px;
 }
 .footer-col ul li a{
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
   color: black;
   text-transform: none;
@@ -418,7 +404,6 @@ ul{
 .footer-col .social-links a:hover{
   color: #6C3828;
   background-color: #fff;
-}
-
+} 
  
  
