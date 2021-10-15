@@ -41,6 +41,12 @@
     .lainnya{
      margin: 10px 0;
    }
+    
+  /* FOOTER */
+   .footer-col{
+       width: 50%;
+       margin-bottom: 30px;
+   }
 }
  
   /* Untuk Smartphone */
@@ -99,6 +105,12 @@
     }
     .lainnya{
       margin: 10px 0;
+    }
+    
+    /* FOOTER */
+    .footer-col{
+        width: 25%;
+        margin-bottom: 15px;
     }
   }
 
