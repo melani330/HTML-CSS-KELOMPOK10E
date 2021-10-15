@@ -4,7 +4,7 @@ ANGGOTA KELOMPOK 10E
 1. Megawati Shintia Maria Gultom
 2. Melani Siti Hasanah
 3. Meilisa Puspita Handayani
-4. M
+4. Maya Khairani Pane
 5. M
 
 JUDUL PROJECT: 
@@ -24,5 +24,5 @@ PEMBAGIAN PENGERJAAN:
 
 ![image](https://user-images.githubusercontent.com/72775473/137436490-909962c0-fbbf-4419-941d-506fff71f3d5.png)
 
-4.
+4.Maya Khairani Pane : Header di index.html, beserta stylesheet
 5.
