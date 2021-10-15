@@ -347,6 +347,7 @@
 
  ul{
   list-style: none;
+  padding-inline-start: 0px;
 }
 .footer{
   padding: 100px ;
