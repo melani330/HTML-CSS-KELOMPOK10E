@@ -2,33 +2,28 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
 
-    /* HEADER */
-
-
     /* MAIN1 */
 
-    .main1 h1 {
-      font-size: 32px;
-      text-align: center;
-    }
-    .main1 p{
-      text-align: center;
-    }
-    .btn-wrapper{
-      text-align: center;
-    }
-    /* MAIN2 */
+    .main1-wrapper h1 {
+      font-size: 40px;
 
-    .judul2 h2{
-      font-size: 14px;
     }
-    .keuntungan{
+  
+    /* MAIN2 */
+    .judul2 h2{
+      font-size: 30px;
+    }
+    .kolom{
       width: 50%;
     }
     .keuntungan img{
-      width: 170px;
-      height: 220px;
+      width: 17px;
+      height: 22px;
     }
+    .kolom p{
+      font-size:19;
+    }
+  
    /* MAIN3 */
     .btn{
         font-size: 14px;
@@ -40,15 +35,14 @@
       width: 50%;
     }
     .produk img{
-      width: 170px;
-      height: 220px;
+      width: 190px;
+      height: 240px;
     }
     .lainnya{
      margin: 10px 0;
    }
 }
-  /* FOOTER */
-  
+ 
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
 
@@ -63,7 +57,7 @@
     }
 
     /* MAIN1 */
-    .main1 h1 {
+    .main1-wrapper h1 {
       font-size: 27px;
       line-height: 36px;
       text-align: center;
@@ -71,7 +65,7 @@
     .btn-wrapper{
       text-align: center;
     }
-    .main1 p {
+    .main1-wrapper p {
       font-size: 14px;
       line-height: 20px;
       text-align: center;
@@ -85,8 +79,8 @@
       width: 50%;
     }
     .keuntungan img{
-      width: 140px;
-      height: 180px;
+      width: 14px;
+      height: 18px;
     }
 
    /*  MAIN3 */
@@ -107,5 +101,4 @@
       margin: 10px 0;
     }
   }
-  /* FOOTER */
-    
+
