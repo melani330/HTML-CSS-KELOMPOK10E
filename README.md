@@ -24,7 +24,7 @@ PEMBAGIAN PENGERJAAN:
 
 ![image](https://user-images.githubusercontent.com/72775473/137436490-909962c0-fbbf-4419-941d-506fff71f3d5.png)
 
-4.Maya Khairani Pane : Footer di index.html, beserta stylesheet
+4.Maya Khairani Pane : Footer di index.html, beserta stylesheet.css dan responsive.css
 
 ![image](https://user-images.githubusercontent.com/72775473/137483330-114c5cf8-5152-4590-9ce9-1fbcb21e2e4a.png)
 
