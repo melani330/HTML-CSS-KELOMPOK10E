@@ -26,4 +26,5 @@ PEMBAGIAN PENGERJAAN:
 
 4.Maya Khairani Pane : Header di index.html, beserta stylesheet
 5.Maulin Karmila : Main 2 di index.html, beserta stylesheet.css dan responsive.css
-![images](https://user-images.githubusercontent.com/77570440/137452399-787f82c6-f832-4727-9bed-c961420e5c87.png)
+
+![images](https://user-images.githubusercontent.com/77570440/137453419-aea55df3-e972-4d1e-8392-6a32aefef019.png)
