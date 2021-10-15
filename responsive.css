@@ -19,7 +19,16 @@
     }
     /* MAIN2 */
 
-  
+    .judul2 h2{
+      font-size: 14px;
+    }
+    .keuntungan{
+      width: 50%;
+    }
+    .keuntungan img{
+      width: 170px;
+      height: 220px;
+    }
    /* MAIN3 */
     .btn{
         font-size: 14px;
@@ -69,7 +78,16 @@
     }
 
     /* MAIN2 */
-    
+    .judul2 h2{
+      font-size: 23px;
+    }
+    .keuntungan{
+      width: 50%;
+    }
+    .keuntungan img{
+      width: 140px;
+      height: 180px;
+    }
 
    /*  MAIN3 */
     .judul3 h2{
