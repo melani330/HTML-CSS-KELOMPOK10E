@@ -5,7 +5,7 @@ ANGGOTA KELOMPOK 10E
 2. Melani Siti Hasanah
 3. Meilisa Puspita Handayani
 4. Maya Khairani Pane
-5. M
+5. Maulin Karmila
 
 JUDUL PROJECT: 
 E Ten's Bites
@@ -25,4 +25,5 @@ PEMBAGIAN PENGERJAAN:
 ![image](https://user-images.githubusercontent.com/72775473/137436490-909962c0-fbbf-4419-941d-506fff71f3d5.png)
 
 4.Maya Khairani Pane : Header di index.html, beserta stylesheet
-5.
+5.Maulin Karmila : Main 2 di index.html, beserta stylesheet.css dan responsive.css
+![images](https://user-images.githubusercontent.com/77570440/137452399-787f82c6-f832-4727-9bed-c961420e5c87.png)
